@@ -37,3 +37,16 @@ Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.0ms)
 Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms)
   Processing by PagesController#about as HTML
 Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 22ms (Views: 21.2ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#home as HTML
+Completed 200 OK in 4ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#contact as HTML
+Completed 200 OK in 11ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#home as HTML
+Completed 200 OK in 2ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#about as HTML
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#home as HTML
+Completed 200 OK in 7ms (Views: 7.1ms | ActiveRecord: 0.0ms)
