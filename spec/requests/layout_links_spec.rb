@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe "LayoutLinks" do
+describe "LayoutLinks" do 
   
   it "should have Home page at '/'" do
     get '/'
