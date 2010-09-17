@@ -24,7 +24,7 @@ module SessionsHelper
     cookies.delete(:remember_token)
     self.current_user = nil
   end
-
+    
   private
 
     def user_from_remember_token
@@ -33,6 +33,10 @@ module SessionsHelper
 
     def remember_token
       cookies.signed[:remember_token] || [nil, nil]
+    end
+    
+    def authenticate
+      deny_access unless signed_in?
     end
     
     def deny_access
