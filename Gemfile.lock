@@ -103,5 +103,5 @@ DEPENDENCIES
   rspec (= 2.0.0.beta.18)
   rspec-rails (= 2.0.0.beta.18)
   spork (= 0.8.4)
-  sqlite3-ruby (= 1.2.5)
+  sqlite3-ruby
   will_paginate (= 3.0.pre)
